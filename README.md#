@@ -1,0 +1,47 @@
+# 💱 Currency Converter – Old Money Style
+
+This is a stylish and functional currency converter project built with **HTML**, **CSS**, and **JavaScript**, featuring a vintage-inspired "Old Money / Scrooge McDuck" design. The converter fetches real-time exchange rates and displays the local **time and date** above the interface.
+
+---
+
+## 📸 Screenshot
+
+![Currency Converter Preview](./preview.png)
+
+
+---
+
+## 🧰 Features
+
+- ✅ Real-time exchange rates via `open.er-api.com`
+- ✅ Elegant and luxurious design in vintage style
+- ✅ Live clock and date display (automatically adapts to user's system)
+- ✅ Mobile-friendly and fully responsive layout
+- ✅ Swap button to switch currencies quickly
+- ✅ Smooth animations and hover effects
+
+---
+
+## 🎨 Design & Background
+
+The **background image and overall aesthetic** were designed manually by me to reflect the atmosphere of wealth, elegance, and nostalgia — reminiscent of **Scrooge McDuck** and vintage finance.
+
+> 💡 _All visual elements, colors, and background images were created by hand for a unique and personalized appearance._
+
+---
+
+## 📱 Mobile Support
+
+- Fully responsive
+- All elements scale down properly on phones and tablets
+- Designed with mobile usability in mind
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/Artur-Zuiev/currency-converter.git
+   cd currency-converter-old-money

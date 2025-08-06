@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Main container for the converter -->
+  <div class="container">
+
+    <!-- Title of the app -->
+    <h1>Currency Converter</h1>
+
+    <!-- Clock section (time + date) -->
+    <div id="clock-box">
+      <div id="clock"></div>
+    </div>
+
+    <!-- Converter input and controls -->
+    <div class="converter">
+      <!-- User input for amount -->
+      <input type="number" id="amount" placeholder="Amount" />
+
+      <!-- Currency selectors and swap button -->
+      <div class="selects">
+        <select id="from-currency"></select>
+        <button id="swap" title="Swap">⇄</button>
+        <select id="to-currency"></select>
+      </div>
+
+      <!-- Convert button -->
+      <button id="convert">Convert</button>
+
+      <!-- Result output -->
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <!-- Link to JS script -->
+  <script src="app.js"></script>
+</body>
+
+</html>
